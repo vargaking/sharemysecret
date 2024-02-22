@@ -1,5 +1,8 @@
 <script lang="ts">
 	import '$lib/css/app.css';
+	import { injectSpeedInsights } from '@vercel/speed-insights';
+
+	injectSpeedInsights();
 </script>
 
 <div class="w-full flex items-center justify-center">
