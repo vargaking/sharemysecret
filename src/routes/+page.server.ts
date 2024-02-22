@@ -31,6 +31,6 @@ export const actions = {
 
 		console.log('hashedSecret', hashedSecret);
 
-		return { status: 200, success: 'Secret created' };
+		return { url: hashedSecret };
 	}
 };
