@@ -1,8 +1,10 @@
 <script lang="ts">
 	import '$lib/css/app.css';
+	import { inject } from '@vercel/analytics';
 	import { injectSpeedInsights } from '@vercel/speed-insights';
 
 	injectSpeedInsights();
+	inject();
 </script>
 
 <div class="w-full flex items-center justify-center">
